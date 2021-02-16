@@ -6,7 +6,7 @@
 
 ## MongoDB  
 
-![Mongo Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mongodb.com%2Fbrand-resources&psig=AOvVaw1obTk3Eb7QamzTLr3dRY3J&ust=1613548035165000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCUo_z07e4CFQAAAAAdAAAAABAD)
+![Mongo Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techcoil.com%2Fblog%2Fconnecting-to-and-disconnecting-from-a-mongodb-server-in-php%2F&psig=AOvVaw1obTk3Eb7QamzTLr3dRY3J&ust=1613548035165000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCUo_z07e4CFQAAAAAdAAAAABAI)
 
 #### Features
 - NoSql - Document DB
