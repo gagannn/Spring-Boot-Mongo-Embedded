@@ -2,7 +2,14 @@
 
 #### Postman Collection - [Imprt from here](https://www.getpostman.com/collections/6789ea26c72976a612eb)
 
-- - - -
+Update below configurations in __application.properties__ in case if you are using different database or host
+```
+spring.data.mongodb.host=localhost
+spring.data.mongodb.port=27017
+spring.data.mongodb.database=Shopify
+```
+
+- - - 
 
 ## MongoDB  
 
