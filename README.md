@@ -53,15 +53,15 @@ db.createUser(
 
 `db.stats();`
 
-db.dropDatabase()
+`db.dropDatabase()`
 
-db.createCollection("mycol", { capped : true, size : 6142800, max : 10000 } );
+`db.createCollection("mycol", { capped : true, size : 6142800, max : 10000 } );`
 
-db.createCollection('customers');  
+`db.createCollection('customers');`
 
-db.mycollection.drop() // returns true if dropped successfully  
+`db.mycollection.drop()` // returns true if dropped successfully  
 
-show collections;
+`show collections;`
 
 db.collection.save() and insert() works similar except that if _id already exists insert() will throw error abd save() will replace that record
 
