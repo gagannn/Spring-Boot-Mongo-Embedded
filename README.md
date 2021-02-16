@@ -49,7 +49,9 @@ db.createUser(
 );
 ```
 
-db.help();  db.stats();
+`db.help();`
+
+`db.stats();`
 
 db.dropDatabase()
 
