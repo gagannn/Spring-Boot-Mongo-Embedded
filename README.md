@@ -36,7 +36,8 @@ _id is a 12 bytes hexadecimal number which assures the uniqueness of every docum
 
 `db`
 
-```db.createUser(
+```
+db.createUser(
    {
      user: "gagan_test",
      pwd: "test",   // Or  "<cleartext password>"
@@ -45,9 +46,10 @@ _id is a 12 bytes hexadecimal number which assures the uniqueness of every docum
          "readWrite","dbAdmin"
        ]
    }
-);```
+);
+```
 
-`db.help();  db.stats();`
+db.help();  db.stats();
 
 db.dropDatabase()
 
