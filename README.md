@@ -19,7 +19,7 @@ Database is a physical container for collections. Each database gets its own set
 ___Collection___ - 
 Collection is a group of MongoDB documents. It is the equivalent of an RDBMS table. A collection exists within a single database. Collections do not enforce a schema. Documents within a collection can have different fields. Typically, all documents in a collection are of similar or related purpose.
 
-____Primary Key (Default key _id provided by MongoDB itself)___ - 
+___Primary Key (Default key _id provided by MongoDB itself)___ - 
 _id is a 12 bytes hexadecimal number which assures the uniqueness of every document. You can provide _id while inserting the document. If you don’t provide then MongoDB provides a unique id for every document. These 12 bytes first 4 bytes for the current timestamp, next 3 bytes for machine id, next 2 bytes for process id of MongoDB server and remaining 3 bytes are simple incremental VALUE.
 
 - test is the default database.
@@ -30,7 +30,7 @@ _id is a 12 bytes hexadecimal number which assures the uniqueness of every docum
 
 ### COMMANDS
 
-code(show dbs)
+`code(show dbs)`
 
 use mycustomers
 
