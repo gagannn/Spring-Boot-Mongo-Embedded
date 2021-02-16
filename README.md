@@ -6,22 +6,20 @@
 
 ## MongoDB  
 
-![Mongo Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.techcoil.com%2Fblog%2Fconnecting-to-and-disconnecting-from-a-mongodb-server-in-php%2F&psig=AOvVaw1obTk3Eb7QamzTLr3dRY3J&ust=1613548035165000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNCUo_z07e4CFQAAAAAdAAAAABAI/200x150 "Title is optional")
-
-#### Features
+### FEATURES
 - NoSql - Document DB
 - JSON like syntax
 - easier to scale. much faster
 - MongoDB is written in C++. 
 - Cross-platform, document oriented database that provides, high performance, high availability, and easy scalability
 
-___Database___
+___Database___ - 
 Database is a physical container for collections. Each database gets its own set of files on the file system. A single MongoDB server typically has multiple databases.
 
-___Collection___
+___Collection___ - 
 Collection is a group of MongoDB documents. It is the equivalent of an RDBMS table. A collection exists within a single database. Collections do not enforce a schema. Documents within a collection can have different fields. Typically, all documents in a collection are of similar or related purpose.
 
-____Primary Key (Default key _id provided by MongoDB itself)____
+____Primary Key (Default key _id provided by MongoDB itself)___ - 
 _id is a 12 bytes hexadecimal number which assures the uniqueness of every document. You can provide _id while inserting the document. If you don’t provide then MongoDB provides a unique id for every document. These 12 bytes first 4 bytes for the current timestamp, next 3 bytes for machine id, next 2 bytes for process id of MongoDB server and remaining 3 bytes are simple incremental VALUE.
 
 - test is the default database.
