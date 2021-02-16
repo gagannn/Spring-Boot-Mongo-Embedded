@@ -2,7 +2,7 @@
 
 #### Postman Collection - [Imprt from here](https://www.getpostman.com/collections/6789ea26c72976a612eb)
 
-Update below configurations in __application.properties__ in case if you are using different database or host
+Update below configurations in __application.properties__ in case if you are using different Mongo database or host
 ```
 spring.data.mongodb.host=localhost
 spring.data.mongodb.port=27017
@@ -198,3 +198,8 @@ Sharding is the process of storing data records across multiple machines and it 
 `mongotop`          //tracks and reports the read and write activity of MongoDB instance on a collection basis. By default, mongotop returns information in each second
  
 `mongotop 30`        //return values every 30 seconds.
+
+
+### ADDITIONAL URLs
+- [MongoDB Driver with Java](https://www.mongodb.com/blog/post/getting-started-with-mongodb-and-java-part-i)
+- [MongoDB with Spring](https://spring.io/projects/spring-data-mongodb)
