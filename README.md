@@ -1,6 +1,6 @@
 # Spring-Boot-Mongo-Embedded
 
-#### Postman Collection - [Imprt from here](https://www.getpostman.com/collections/6789ea26c72976a612eb)
+#### Postman Collection - [Import from here](https://www.getpostman.com/collections/6789ea26c72976a612eb)
 
 Update below configurations in __application.properties__ in case if you are using different Mongo database or host
 ```
